@@ -3,8 +3,9 @@
 --- !u!91 &9100000
 AnimatorController:
   m_ObjectHideFlags: 0
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: BlueTeddyBear
   serializedVersion: 5
   m_AnimatorParameters: []
@@ -23,10 +24,11 @@ AnimatorController:
     m_Controller: {fileID: 9100000}
 --- !u!1102 &1102117699691004628
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Jump
   m_Speed: 1
   m_CycleOffset: 0
@@ -48,10 +50,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102156910168327382
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Idle
   m_Speed: 1
   m_CycleOffset: 0
@@ -73,10 +76,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102295354693836900
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Walk
   m_Speed: 1
   m_CycleOffset: 0
@@ -98,10 +102,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102330267434033342
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Run
   m_Speed: 1.83
   m_CycleOffset: 0
@@ -123,10 +128,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102336458814647758
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: IdleSitting
   m_Speed: 1
   m_CycleOffset: 0
@@ -148,10 +154,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102449091784571602
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Celebrate
   m_Speed: 1
   m_CycleOffset: 0
@@ -173,10 +180,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102488874524428696
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: FallBWD
   m_Speed: 1
   m_CycleOffset: 0
@@ -198,10 +206,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102504068793998614
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Idle2
   m_Speed: 1
   m_CycleOffset: 0
@@ -223,10 +232,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102667975108705072
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: TurnOnSpot90
   m_Speed: 1
   m_CycleOffset: 0
@@ -248,10 +258,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1102 &1102879934634095720
 AnimatorState:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: TurnOnSpot180
   m_Speed: 1
   m_CycleOffset: 0
@@ -273,10 +284,11 @@ AnimatorState:
   m_TimeParameter: 
 --- !u!1107 &1107441930618615630
 AnimatorStateMachine:
-  serializedVersion: 5
+  serializedVersion: 6
   m_ObjectHideFlags: 1
-  m_PrefabParentObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
   m_Name: Base Layer
   m_ChildStates:
   - serializedVersion: 1
@@ -287,7 +299,7 @@ AnimatorStateMachine:
     m_Position: {x: 312, y: 156, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102156910168327382}
-    m_Position: {x: 312, y: 204, z: 0}
+    m_Position: {x: 310, y: 200, z: 0}
   - serializedVersion: 1
     m_State: {fileID: 1102504068793998614}
     m_Position: {x: 312, y: 252, z: 0}

@@ -76,7 +76,7 @@ LineRenderer:
   m_SortingOrder: 0
   m_Positions:
   - {x: 0, y: 0, z: 0}
-  - {x: 0, y: 18.48, z: 1}
+  - {x: 0, y: 10, z: 1}
   m_Parameters:
     serializedVersion: 3
     widthMultiplier: 0.2
@@ -161,7 +161,7 @@ Transform:
   m_GameObject: {fileID: 2688068723669316996}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.01, y: 0.47, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -193,7 +193,7 @@ Transform:
   m_GameObject: {fileID: 3011053490362446460}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 2.66, y: 14.74, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -248,9 +248,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lineRenderer: {fileID: 1236551623899925324}
   firePoint: {fileID: 1854612464242495853}
-  arcRadius: 100
+  arcRadius: 10
   arcSpeed: 0.7
-  laserMode: 0
+  angleOffset: -0.75
+  customAngle: 120
+  recoilForce: 40
+  laserMode: 2
 --- !u!1 &8875380894555057129
 GameObject:
   m_ObjectHideFlags: 0
@@ -277,7 +280,7 @@ Transform:
   m_GameObject: {fileID: 8875380894555057129}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -2.6834226}
+  m_LocalPosition: {x: 2.14, y: 14.78, z: -2.6834226}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []

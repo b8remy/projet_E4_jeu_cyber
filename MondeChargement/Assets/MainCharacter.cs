@@ -33,19 +33,19 @@ public class CharacterMotor : MonoBehaviour
         if ((Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) && !Input.GetKey(KeyCode.LeftShift))
         {
             transform.Translate(0, 0, walkSpeed * Time.deltaTime);
-            animations.Play("walk");
+            //.Play("walk");
         }
         //si on recule
         if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
             transform.Translate(0, 0, -(walkSpeed) / 2 * Time.deltaTime);
-            animations.Play("walk");
+            //animations.Play("walk");
         }
         //si on court
         if ((Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) && Input.GetKey(KeyCode.LeftShift))
         {
             transform.Translate(0, 0, runspeed * Time.deltaTime);
-            animations.Play("run");
+            //animations.Play("run");
         }
         //rotation à gauche
         if (Input.GetKey(KeyCode.LeftArrow) || Input.GetKey(KeyCode.A))
@@ -58,10 +58,10 @@ public class CharacterMotor : MonoBehaviour
             transform.Rotate(0, turnspeed * Time.deltaTime, 0);
         }
 
-        // si on ne fait rien
+        /* si on ne fait rien
         if (!Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.DownArrow) && !Input.GetKey(KeyCode.W) && !Input.GetKey(KeyCode.S))
         {
             animations.Play("idle");
-        }
+        }*/
     }
 }
