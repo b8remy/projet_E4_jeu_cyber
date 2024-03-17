@@ -1,1 +1,17 @@
-*.dylib filter=lfs diff=lfs merge=lfs -text
+#include <stdio.h>
+#include <omp.h>
+
+int main() {
+    // Définir le nombre de threads OpenMP
+    omp_set_num_threads(4);
+
+    #pragma omp parallel
+    {
+        // Obtenir le numéro de rang du thread
+        int thread_rank = omp_get_thread_num();
+        printf("Hello from thread %d\n", thread_rank);
+    }
+
+    return 0;
+}
+

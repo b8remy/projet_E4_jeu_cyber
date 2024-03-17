@@ -14,6 +14,8 @@ public class CharacterMotor : MonoBehaviour
     public float runspeed;
     public float turnspeed;
 
+    public Animator animator;
+
     //inputs
 
     public Vector3 jumpSpeed;
@@ -33,12 +35,14 @@ public class CharacterMotor : MonoBehaviour
         if ((Input.GetKey(KeyCode.UpArrow) || Input.GetKey(KeyCode.W)) && !Input.GetKey(KeyCode.LeftShift))
         {
             transform.Translate(0, 0, walkSpeed * Time.deltaTime);
+            animator.SetBool("IsWalking", true);
             //.Play("walk");
         }
         //si on recule
         if (Input.GetKey(KeyCode.DownArrow) || Input.GetKey(KeyCode.S))
         {
             transform.Translate(0, 0, -(walkSpeed) / 2 * Time.deltaTime);
+            animator.SetBool("IsWalking", true);
             //animations.Play("walk");
         }
         //si on court
@@ -56,6 +60,11 @@ public class CharacterMotor : MonoBehaviour
         if (Input.GetKey(KeyCode.RightArrow) || Input.GetKey(KeyCode.D))
         {
             transform.Rotate(0, turnspeed * Time.deltaTime, 0);
+        }
+
+        if (!Input.GetKey(KeyCode.UpArrow) && !Input.GetKey(KeyCode.DownArrow))
+        {
+            animator.SetBool("IsWalking", false);
         }
 
         /* si on ne fait rien
