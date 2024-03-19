@@ -35,8 +35,8 @@ public class PasswordInteraction2 : MonoBehaviour
 
     IEnumerator ChangeScene()
     {
-        yield return new WaitForSeconds(2); // Attendre 2 secondes
-        SceneManager.LoadScene("SampleScene"); // Changez "NomDeLaNouvelleScene" par le nom de votre scène
+        yield return new WaitForSeconds(1); // Attendre 2 secondes
+        SceneManager.LoadScene("Hub3D"); // Changez "NomDeLaNouvelleScene" par le nom de votre scène
     }
 
     IEnumerator ClearInputField()
